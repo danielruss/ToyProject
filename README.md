@@ -12,4 +12,4 @@ I used this at the top of the file.
 
 
 * [toc_test](https://danielruss.github.io/ToyProject/toc_test.html)
-* [toc_test2](https://danielruss.github.io/ToyProject/toc_test2.html]
+* [toc_test2](https://danielruss.github.io/ToyProject/toc_test2.html)
