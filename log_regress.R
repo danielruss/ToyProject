@@ -32,5 +32,7 @@ makeRow<-function(x){
 }
 res <- model_list %>% map_df(makeRow) %>%
   mutate(snpname=names(model_list))
-p.adj<-p.adjust(res$w1.p,method = "fdr")
+p.adj.fdr <- p.adjust(res$w1.p,method = "fdr")
+p.adj.bonferroni <- p.adjust(res$w1.p,method = "bonferroni")
+
 
